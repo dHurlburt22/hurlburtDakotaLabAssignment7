@@ -10,14 +10,10 @@ title: 11ty Boilerplate
   <title>{{ title }}</title>
   <link rel="stylesheet" href="/styles/screen.css">
   <script src="main.js" defer> </script>
+  <script defer src="https://cdn.jsdelivr.net/gh/hankhank10/alpine-fetch@main/alpine-fetch.js"></script>
+  <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="/" title="Go home">Home</a></li>
-      <li><a href="/about/" title="About the boilerplate">About</a></li>
-    </ul>
-  </nav>
     {{ content }}
 </body>
 </html>
