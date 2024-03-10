@@ -7,9 +7,9 @@ title: 11ty Boilerplate
 
 
 <div x-data="{thumbImage: $fetchjson('https://dummyjson.com/products/1', jsonItem='thumbnail')}"> 
-    <img alt="thumbnail" x-bind:src='thumbImage'/>
+    <img class="border-8 border-white rounded-2xl size-fit shadow-2xl block m-auto" alt="thumbnail" x-bind:src='thumbImage'/>
 </div>
 
 <div x-data="{thumbText: $fetchjson('https://dummyjson.com/products/1', jsonItem2='description')}"> 
-    <h1 x-text='thumbText'> </h1>
+    <h1 class="text-8xl drop-shadow-lg" x-text='thumbText'> </h1>
 </div>
